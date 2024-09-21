@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "39e60fce5b08462f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d52c82d8d609d82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "315762525c40d18c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Actual Topics Covered.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6a17d4bc34352cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc537a63e17a852f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad0db13c0ac23f76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8294c5d962c8a924",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f585c274bdd9658",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#SOHO",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c53a866383d4efb7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0b73af5bc24f5481",
+    "type": "split",
+    "children": [
+      {
+        "id": "d618ca099e4dab0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "793908949c8b87d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f892f7a91b188f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "910bccbbf60ffe28",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3843e2c92f450dff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md"
+              }
+            }
+          },
+          {
+            "id": "c6a31c6545bd82e1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e36bddde4601b09",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "juggl:Juggl global graph": false
+    }
+  },
+  "active": "b6a17d4bc34352cb",
+  "lastOpenFiles": [
+    "Actual Topics Covered.md",
+    "1.Explaining the Functions of Networking.md",
+    "WANs.md",
+    "WANs 2.md",
+    "WANs 1.md",
+    "WAN.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "3.Cisco IOS Software.md",
+    "- Wide-Area Networks (WANs).md",
+    "CCNA Topics.md",
+    "().md",
+    "Wide-Area Networks (WANs).md",
+    "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+    "5.Exploring TCP/IP Layer.md",
+    "5.Exploring TCP",
+    "7.Introducing TCP/7a.Explaining the Layers.md",
+    "Mindmap of overall.canvas",
+    "Untitled.canvas",
+    "9.Configuring a Cisco Router.md",
+    "8.Explaining the functions of Routing.md",
+    "7.Introducing TCP",
+    "2024-09-20.md",
+    "Cisco IOS Software.md",
+    "Explaining the Layers.md",
+    "Starting a Switch.md",
+    "Common usages of Computer Network.md",
+    "6.Starting a Switch.md",
+    "4.Exploring LANs.md",
+    "2.Host to Host Communications Model.md",
+    "Computer Network.md",
+    "Exploring TCP",
+    "Introducing TCP",
+    "Test.jpg",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas"
+  ]
+}
