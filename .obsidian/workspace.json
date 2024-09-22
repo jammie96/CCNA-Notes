@@ -10,13 +10,43 @@
           {
             "id": "315762525c40d18c",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "20b490ad5815d83e",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Actual Topics Covered.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "4814c53419bb99cd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CCNA Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
@@ -31,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SOHO",
+                "query": "tag:#practical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "1.Explaining the Functions of Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "1.Explaining the Functions of Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "1.Explaining the Functions of Networking.md"
               }
             }
           },
@@ -176,10 +205,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "b6a17d4bc34352cb",
+  "active": "315762525c40d18c",
   "lastOpenFiles": [
-    "1.Explaining the Functions of Networking.md",
     "Actual Topics Covered.md",
+    "1.Explaining the Functions of Networking.md",
+    "Pasted image 20240922164533.png",
+    "CCNA Topics.md",
+    "Pasted image 20240922153821.png",
+    "README.md",
     "WANs.md",
     "WANs 2.md",
     "WANs 1.md",
@@ -187,7 +220,6 @@
     "2.Introducing the Host to Host Communications Model.md",
     "3.Cisco IOS Software.md",
     "- Wide-Area Networks (WANs).md",
-    "CCNA Topics.md",
     "().md",
     "Wide-Area Networks (WANs).md",
     "7.Introducing TCP/IP Transport Layer and Application Layer.md",
@@ -206,8 +238,6 @@
     "Common usages of Computer Network.md",
     "6.Starting a Switch.md",
     "4.Exploring LANs.md",
-    "2.Host to Host Communications Model.md",
-    "Computer Network.md",
     "Exploring TCP",
     "Introducing TCP",
     "Test.jpg",

@@ -1,10 +1,10 @@
 - 1.1 Explain the role and function of network components
-    - 1.1.a Routers
-    - 1.1.b Layer 2 and Layer 3 switches
-    - 1.1.c Next-generation firewalls and IPS
-    - 1.1.d Access points
-    - 1.1.e Controllers (Cisco DNA Center and WLC)
-    - 1.1.f Endpoints
+    - 1.1.a Routers #Routers 
+    - 1.1.b Layer 2 and Layer 3 switches #Layer3Switches 
+    - 1.1.c Next-generation firewalls and IPS #IntrusionProtectionSystemsIPS #Firewalls
+    - 1.1.d Access points #AccessPointsAP 
+    - 1.1.e Controllers (Cisco DNA Center and WLC) #WirelessLANControllersWLC 
+    - 1.1.f Endpoints #Endpoints
     - 1.1.g Servers
     - 1.1.h PoE
    
@@ -24,11 +24,11 @@
   
 - 1.5 Compare TCP to UDP
   
-- 1.6 Configure and verify IPv4 addressing and subnetting
+- 1.6 Configure and verify IPv4 addressing and subnetting #practical
   
 - 1.7 Describe private IPv4 addressing
   
-- 1.8 Configure and verify IPv6 addressing and prefix
+- 1.8 Configure and verify IPv6 addressing and prefix #practical
   
 - 1.9 Describe IPv6 address types
     - 1.9.a Unicast (global, unique local, and link local)
@@ -52,19 +52,19 @@
     - 1.13.c Frame flooding
     - 1.13.d MAC address table
 
-- 2.1 Configure and verify VLANs (normal range) spanning multiple switches
+- 2.1 Configure and verify VLANs (normal range) spanning multiple switches #practical 
     - 2.1.a Access ports (data and voice)
     - 2.1.b Default VLAN
     - 2.1.c InterVLAN connectivity
   
-- 2.2 Configure and verify interswitch connectivity
+- 2.2 Configure and verify interswitch connectivity #practical 
     - 2.2.a Trunk ports
     - 2.2.b 802.1Q
     - 2.2.c Native VLAN
   
-- 2.3 Configure and verify Layer 2 discovery protocols (Cisco Discovery Protocol and LLDP)
+- 2.3 Configure and verify Layer 2 discovery protocols (Cisco Discovery Protocol and LLDP) #practical 
   
-- 2.4 Configure and verify (Layer 2/Layer 3) EtherChannel (LACP)
+- 2.4 Configure and verify (Layer 2/Layer 3) EtherChannel (LACP) #practical 
   
 - 2.5 Interpret basic operations of Rapid PVST+ Spanning Tree Protocol
     - 2.5.a Root port, root bridge (primary/secondary), and other port names
@@ -94,13 +94,13 @@
     - 3.2.b Administrative distance
     - 3.2.c Routing protocol metric
   
-- 3.3 Configure and verify IPv4 and IPv6 static routing
+- 3.3 Configure and verify IPv4 and IPv6 static routing #practical 
     - 3.3.a Default route
     - 3.3.b Network route
     - 3.3.c Host route
     - 3.3.d Floating static
   
-- 3.4 Configure and verify single area OSPFv2
+- 3.4 Configure and verify single area OSPFv2 #practical 
     - 3.4.a Neighbor adjacencies
     - 3.4.b Point-to-point
     - 3.4.c Broadcast (DR/BDR selection)
@@ -108,7 +108,7 @@
   
 - 3.5 Describe the purpose, functions, and concepts of first hop redundancy protocols
 
-- 4.1 Configure and verify inside source NAT using static and pools
+- 4.1 Configure and verify inside source NAT using static and pools #practical 
   
 - 4.2 Configure and verify NTP operating in a client and server mode
   
@@ -122,7 +122,7 @@
   
 - 4.7 Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping
   
-- 4.8 Configure network devices for remote access using SSH
+- 4.8 Configure network devices for remote access using SSH #practical 
   
 - 4.9 Describe the capabilities and functions of TFTP/FTP in the network
 
@@ -130,7 +130,7 @@
   
 - 5.2 Describe security program elements (user awareness, training, and physical access control)
   
-- 5.3 Configure and verify device access control using local passwords
+- 5.3 Configure and verify device access control using local passwords #practical 
   
 - 5.4 Describe security password policies elements, such as management, complexity, and password alternatives (multifactor authentication, certificates, and biometrics)
   
@@ -138,13 +138,13 @@
   
 - 5.6 Configure and verify access control lists
   
-- 5.7 Configure and verify Layer 2 security features (DHCP snooping, dynamic ARP inspection, and port security)
+- 5.7 Configure and verify Layer 2 security features (DHCP snooping, dynamic ARP inspection, and port security) #practical 
   
 - 5.8 Compare authentication, authorization, and accounting concepts
   
 - 5.9 Describe wireless security protocols (WPA, WPA2, and WPA3)
   
-- 5.10 Configure and verify WLAN within the GUI using WPA2 PSK
+- 5.10 Configure and verify WLAN within the GUI using WPA2 PSK #practical 
 
 - 6.1 Explain how automation impacts network management
   
