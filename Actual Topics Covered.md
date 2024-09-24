@@ -44,7 +44,7 @@
     - 1.11.c RF
     - 1.11.d Encryption
   
-- 1.12 Explain virtualization fundamentals (server virtualization, containers, and VRFs)
+- 1.12 Explain virtualization fundamentals (server virtualization, containers, and VRFs) #virtualization 
   
 - 1.13 Describe switching concepts
     - 1.13.a MAC learning and aging
