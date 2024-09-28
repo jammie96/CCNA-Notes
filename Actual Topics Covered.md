@@ -74,11 +74,11 @@
   
 - 2.6 Describe Cisco Wireless Architectures and AP modes
   
-- 2.7 Describe physical infrastructure connections of WLAN components (AP, WLC, access/trunk ports, and LAG)
+- 2.7 Describe physical infrastructure connections of WLAN components (AP, WLC, access/trunk ports, and LAG) #WirelessLANControllersWLC #AccessPointsAP 
   
 - 2.8 Describe network device management access (Telnet, SSH, HTTP, HTTPS, console, TACACS+/RADIUS, and cloud managed)
   
-- 2.9 Interpret the wireless LAN GUI configuration for client connectivity, such as WLAN creation, security settings, QoS profiles, and advanced settings
+- 2.9 Interpret the wireless LAN GUI configuration for client connectivity, such as WLAN creation, security settings, QoS profiles, and advanced settings #QoS 
 
 - 3.1 Interpret the components of routing table
     - 3.1.a Routing protocol code
@@ -120,7 +120,7 @@
   
 - 4.6 Configure and verify DHCP client and relay
   
-- 4.7 Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping
+- 4.7 Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping #QoS 
   
 - 4.8 Configure network devices for remote access using SSH #practical 
   

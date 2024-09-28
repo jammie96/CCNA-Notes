@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "315762525c40d18c",
+            "id": "bb2bd5cf25703c40",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Explaining the Functions of Networking.md",
+                "file": "2.Introducing the Host to Host Communications Model.md",
                 "mode": "source",
                 "source": false
               },
@@ -60,33 +60,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4711a9462a812f73",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mindmap of overall.canvas",
-                "viewState": {
-                  "x": -340,
-                  "y": 346.0781260170828,
-                  "zoom": -0.7272670107349125
-                }
-              }
-            }
-          },
-          {
-            "id": "f27d4a0fe7f04384",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Explaining the Functions of Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -117,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ISO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Explaining the Functions of Networking.md",
+                "file": "2.Introducing the Host to Host Communications Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Explaining the Functions of Networking.md",
+                "file": "2.Introducing the Host to Host Communications Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Explaining the Functions of Networking.md"
+                "file": "2.Introducing the Host to Host Communications Model.md"
               }
             }
           },
@@ -233,11 +206,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "315762525c40d18c",
+  "active": "bb2bd5cf25703c40",
   "lastOpenFiles": [
     "Actual Topics Covered.md",
-    "1.Explaining the Functions of Networking.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "Pasted image 20240928122206.png",
     "CCNA Topics.md",
+    "1.Explaining the Functions of Networking.md",
     "Mindmap of overall.canvas",
     "Pasted image 20240924212534.png",
     "Pasted image 20240924212450.png",
@@ -253,7 +228,6 @@
     "WANs 2.md",
     "WANs 1.md",
     "WAN.md",
-    "2.Introducing the Host to Host Communications Model.md",
     "3.Cisco IOS Software.md",
     "- Wide-Area Networks (WANs).md",
     "().md",
@@ -275,7 +249,6 @@
     "4.Exploring LANs.md",
     "Exploring TCP",
     "Introducing TCP",
-    "Test.jpg",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
