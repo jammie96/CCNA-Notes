@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb2bd5cf25703c40",
+            "id": "814f9ff8cfcbb370",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.Introducing the Host to Host Communications Model.md",
+                "file": "4.Exploring LANs.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,12 +50,27 @@
             }
           },
           {
-            "id": "b6a17d4bc34352cb",
+            "id": "bb14124597173d07",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Mindmap of overall.canvas",
+                "viewState": {
+                  "x": -646.7363496238586,
+                  "y": 652.8549874564085,
+                  "zoom": -0.4766409086695204
+                }
+              }
+            }
+          },
+          {
+            "id": "c894a5828b05d89b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1.Explaining the Functions of Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ISO",
+                "query": "tag:#Routers",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 294.5
   },
   "right": {
     "id": "0b73af5bc24f5481",
@@ -127,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.Introducing the Host to Host Communications Model.md",
+                "file": "4.Exploring LANs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.Introducing the Host to Host Communications Model.md",
+                "file": "4.Exploring LANs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.Introducing the Host to Host Communications Model.md"
+                "file": "4.Exploring LANs.md"
               }
             }
           },
@@ -205,25 +220,26 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "bb2bd5cf25703c40",
+  "active": "814f9ff8cfcbb370",
   "lastOpenFiles": [
+    "Pasted image 20240930174929.png",
+    "Pasted image 20240930174855.png",
+    "Pasted image 20240930174220.png",
+    "Pasted image 20240930173554.png",
+    "Actual Topics Covered.md",
+    "1.Explaining the Functions of Networking.md",
+    "4.Exploring LANs.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "CCNA Topics.md",
+    "Mindmap of overall.canvas",
+    "Pasted image 20240928220034.png",
+    "README.md",
     "Pasted image 20240928214757.png",
     "Pasted image 20240928214638.png",
     "Pasted image 20240928214548.png",
     "Pasted image 20240928211605.png",
     "Pasted image 20240928185848.png",
     "Pasted image 20240928173048.png",
-    "Actual Topics Covered.md",
-    "2.Introducing the Host to Host Communications Model.md",
-    "Pasted image 20240928122206.png",
-    "CCNA Topics.md",
-    "1.Explaining the Functions of Networking.md",
-    "Mindmap of overall.canvas",
-    "Pasted image 20240924212534.png",
-    "Pasted image 20240924212450.png",
-    "Pasted image 20240924212434.png",
-    "Pasted image 20240924212419.png",
-    "README.md",
     "WANs.md",
     "WANs 2.md",
     "WANs 1.md",
@@ -246,7 +262,6 @@
     "Starting a Switch.md",
     "Common usages of Computer Network.md",
     "6.Starting a Switch.md",
-    "4.Exploring LANs.md",
     "Exploring TCP",
     "Introducing TCP",
     "Untitled 1.canvas",
