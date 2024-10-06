@@ -75,8 +75,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e16fa9b3dd249265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 200
   },
   "right": {
     "id": "0b73af5bc24f5481",
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Exploring LANs.md",
+                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.Exploring LANs.md",
+                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.Exploring LANs.md"
+                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md"
               }
             }
           },
@@ -220,17 +233,18 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "814f9ff8cfcbb370",
+  "active": "e16fa9b3dd249265",
   "lastOpenFiles": [
+    "Pasted image 20241006204217.png",
+    "CCNA Topics.md",
+    "4.Exploring LANs.md",
     "Pasted image 20240930174929.png",
     "Pasted image 20240930174855.png",
     "Pasted image 20240930174220.png",
     "Pasted image 20240930173554.png",
     "Actual Topics Covered.md",
     "1.Explaining the Functions of Networking.md",
-    "4.Exploring LANs.md",
     "2.Introducing the Host to Host Communications Model.md",
-    "CCNA Topics.md",
     "Mindmap of overall.canvas",
     "Pasted image 20240928220034.png",
     "README.md",
@@ -239,7 +253,6 @@
     "Pasted image 20240928214548.png",
     "Pasted image 20240928211605.png",
     "Pasted image 20240928185848.png",
-    "Pasted image 20240928173048.png",
     "WANs.md",
     "WANs 2.md",
     "WANs 1.md",
