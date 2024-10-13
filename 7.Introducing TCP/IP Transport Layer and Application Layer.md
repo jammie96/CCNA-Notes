@@ -238,8 +238,40 @@
 | 2048          | 172.16.255.224 | 172.16.255.225 - 172.16.255.254 | 172.16.255.255    |
 
 ### Benefits of VLSM and Implementing VLSM
+- Variable Length Subnet Mask (VLSM) allows you to use more than one subnet mask within a network to efficiently use IP addresses
+- The most efficient subnet mask for a subnet is the mask that provides an appropriate number of host addresses for that individual subnet
+![[Pasted image 20241013204833.png]]
+> Subnet 172.16.6.0 has only 19 hosts, so it does not need the 254 host addresses that the /24 prefix allows
+> 	- A /27 mask would provide 30 host addresses which is more appropriate for this subnet
+
+- Benefits of VLSM:
+	- Support for route summarization / route aggregation
+		- Route summarization reduces the number of routes in routing tables by representing a range of network subnets in a single summary address
+			- Smaller routing tables require less CPU time for routing lookups
+- VLSM can be used in all modern networks that run classless routing protocols such as Routing Information Protocol version 2 (RIPv2), Open Shortest Path Firts (OSPF #OSPF), Enhanced Interior Gateway Routing Protocol (EIGRP)
+- VLSM could not be used on a network using legacy classful protocols such as Routing Information Protocol version 1 (RIPv1) and Interior Gateway Routing Protocol (IGRP)
+	- These protocols cannot carry subnet mask information on their routing updates and are no longer used in today's networks
+
+#### Implementing VLSM
+see ![[vlsm calc.html]]
+![[Pasted image 20241013210101.png]]
+> Overview of the example
+
+![[Pasted image 20241013213540.png]]
+>Calculation of the Hosts per subnet
+
+![[Pasted image 20241013213557.png]]
+>
+
+![[Pasted image 20241013213612.png]]
+>Next, WAN links require 2 hosts
 
 
+![[Pasted image 20241013213629.png]]
+> WAN links
+
+![[Pasted image 20241013213650.png]]
+> Total figure
 ### Private vs Public IPv4 Addresses
 
 

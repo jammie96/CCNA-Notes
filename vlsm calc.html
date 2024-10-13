@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLSM Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height */
+            background-color: #f9f9f9; /* Light background color */
+        }
+        .container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            padding: 20px;
+            background-color: white; /* White background for the container */
+        }
+        input {
+            margin: 5px 0;
+            padding: 10px;
+            width: calc(100% - 22px);
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>VLSM Calculator</h2>
+
+    <label for="ip">Enter the starting IP address (e.g., 192.168.1.0):</label>
+    <input type="text" id="ip" placeholder="e.g. 192.168.1.0">
+
+    <label for="mask">Enter the subnet mask (e.g., /24):</label>
+    <input type="text" id="mask" placeholder="e.g. /24">
+
+    <label for="hosts">Enter the number of hosts required for each subnet (comma-separated):</label>
+    <input type="text" id="hosts" placeholder="e.g. 50,30,2,10">
+
+    <button onclick="calculateVLSM()">Calculate VLSM</button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    function ipToInteger(ip) {
+        return ip.split('.').reduce((acc, octet) => (acc << 8) + parseInt(octet), 0);
+    }
+
+    function integerToIp(int) {
+        return [(int >> 24) & 255, (int >> 16) & 255, (int >> 8) & 255, int & 255].join('.');
+    }
+
+    function calculateVLSM() {
+        const input = document.getElementById("hosts").value.split(',').map(Number);
+        const startIp = document.getElementById("ip").value.trim();
+        const mask = parseInt(document.getElementById("mask").value.replace('/', ''));
+
+        if (!startIp || isNaN(mask) || mask < 0 || mask > 32) {
+            alert("Please enter a valid IP address and subnet mask.");
+            return;
+        }
+
+        const startAddress = ipToInteger(startIp);
+        const results = [];
+        
+        // Calculate total hosts in the original network
+        const totalHosts = Math.pow(2, (32 - mask)) - 2; // Total usable addresses in the original network
+
+        // Calculate total required hosts
+        const totalRequiredHosts = input.reduce((acc, val) => acc + val, 0); // Sum of all required hosts
+
+        input.forEach(hosts => {
+            let bitsNeeded = Math.ceil(Math.log2(hosts + 2)); // +2 for network and broadcast
+            let subnetMask = 32 - bitsNeeded; // Calculate subnet mask
+            let usableAddresses = Math.pow(2, bitsNeeded) - 2; // Usable addresses
+
+            // Calculate network address and broadcast address
+            let networkAddress = startAddress + (Math.pow(2, bitsNeeded) * results.length);
+            let broadcastAddress = networkAddress + usableAddresses + 1;
+
+            // Calculate first and last usable IP addresses
+            let firstUsableIp = networkAddress + 1; // First usable IP
+            let lastUsableIp = broadcastAddress - 1; // Last usable IP
+
+            results.push({
+                hosts,
+                subnetMask,
+                networkAddress: integerToIp(networkAddress),
+                broadcastAddress: integerToIp(broadcastAddress),
+                firstUsableIp: integerToIp(firstUsableIp),
+                lastUsableIp: integerToIp(lastUsableIp)
+            });
+        });
+
+        let resultHtml = `<h4>The network ${startIp}/${mask} has ${totalHosts} hosts.</h4>`;
+        resultHtml += `<h4>Your subnets need a total of ${totalRequiredHosts} hosts.</h4>`;
+        
+        resultHtml += "<h3>Subnet Results:</h3><table><thead><tr><th>Hosts</th><th>Subnet Mask</th><th>Network Address</th><th>Broadcast Address</th><th>First Usable IP</th><th>Last Usable IP</th></tr></thead><tbody>";
+        
+        results.forEach(result => {
+            resultHtml += `<tr>
+                <td>${result.hosts}</td>
+                <td>/${result.subnetMask}</td>
+                <td>${result.networkAddress}</td>
+                <td>${result.broadcastAddress}</td>
+                <td>${result.firstUsableIp}</td>
+                <td>${result.lastUsableIp}</td>
+              </tr>`;
+        });
+        
+        resultHtml += "</tbody></table>";
+
+        document.getElementById("result").innerHTML = resultHtml;
+    }
+</script>
+
+</body>
+</html>
