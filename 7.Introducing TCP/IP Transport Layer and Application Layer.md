@@ -134,8 +134,108 @@
 ![[Pasted image 20241007163059.png]]
 > Sample of a multiple subnetwork environments
 > *Each subnetwork may be connected to the internet by a single router*
-### Implementing Subnetting: Borrowing bits
+### Implementing Subnetting: Borrowing bits #subnetting
+- Steps to implement subnet:
+	- Determine the IP address for your network as assigned by the registry authority or network administrator
+	- Based on your organizational and administrative structure, determine the number of subnets that are required for the network (be sure to plan for growth)
+	- Based on the required number of subnets, determine the number of bits that you need to borrow from the host bits
+	- Determine the binary and decimal value of the new subnet mask that results from borrowing bits from the host ID
+	- Apply the subnet mask to the network IP address to determine the subnets and the available host addresses. Also determine the network and broadcast address for each subnet
+	- Assign subnet addresses to all subnets. Assign host address to all devices that are connected to each subnet
 
+![[Pasted image 20241013144056.png]]
+> Borrowing bits:
+> Notice changing /24 prefix to /25 prefix
+> Notice from 4th octect, 0 to 128  as it is in binary
+
+- Each time a bit is borrowed, the number of subnet addresses increases and the number of host addresses that are available per subnet decreases
+	- E.g. Number of subnets: 2<sup>s</sup> (where s is the number of bits borrowed)
+
+- 2 addresses that are not available to be used as host address =  directed broadcast address (all 1 bits) & local broadcast address (all 0 bits)
+	- E.g. Calculate the number of host addresses that are available: 2<sup>h</sup> -2 (h if the number of host bits that are remaining after bits are borrowed)
+![[Pasted image 20241013145027.png]]
+> Class B subnet mask, 255.255.0.0
+> 2<sup>7</sup> -2 = 126 available hosts
+> 	- 192.168.52.255 = directed broadcast #important 
+> 	- 192.168.52.0 = network broadcast #important 
+
+
+![[Pasted image 20241013150812.png]]
+> Example of 5 host bits are borrowed for subnetting, Class B subnet mask, 255.255.0.0
+> 2<sup>5</sup> = 32 subnets are created
+> 	2<sup>3</sup> - 2 = 6 host addresses are available for each subnet
+> Therefore, new subnet mask is 1111 1111. 1111 1111. 1111 1111. 1111 1000 = 255.255.255.248 \
+> Total available subnet hosts = 32 * 6 = 192
+> Total subnet hosts = 32 * 8 = 256
+
+![[Pasted image 20241013151526.png]]
+> Borrowing 6 host bits, Class B subnet mask, 255.255.0.0
+> Notice changing /16 prefix to /22 prefix
+
+![[Pasted image 20241013151801.png]]
+>Borrowing 8 host bits, Class A subnet mask, 255.0.0.0
+>Notice changing /8 prefix to /16 prefix
+>The IPv4 address is unchanged, but the subnet mask has changes from 255.0.0.0 to 255.255.0.0
+
+### Implementing Subnetting: Determining the Addressing Scheme #subnetting
+- If all network address is subnetted, the first subnet that is obtained after subnetting the network address is called subnet zero
+
+<b>Example 1</b>
+![[Pasted image 20241013152132.png]]
+> 8 bits are borrowed, for a /16 prefix -> /24 prefix
+> *Does not show which class subnet mask it is*
+> Therefore there are a total of 2<sup>8</sup> = 256 subnets:
+>  172.16.0.0
+>  172.16.1.0
+>  ...
+>  172.16.255.0 = 256 subnets (start from 0)
+>  Each subnet there are 2<sup>8</sup> - 2 = 254 usable host address per subnet
+
+| Subnet Address | Host Address Range            | Broadcast Address |
+| -------------- | ----------------------------- | ----------------- |
+| 172.16.0.0     | 172.16.0.1 - 172.16.0.254     | 172.16.0.255      |
+| 172.16.1.0     | 172.16.1.1 - 172.16.1.254     | 172.16.1.255      |
+| 172.16.n.0     | 172.16.n.1 - 172.16.n.254     | 172.16.n.255      |
+| 172.16.255.0   | 172.16.255.1 - 172.16.255.254 | 172.16.255.255    |
+
+<b>Example 2</b> #important 
+![[Pasted image 20241013155230.png]]
+> Class B subnet mask 172.16.0.0/16, borrowing 2 host bits -> /18 prefix
+> 172.16.0.0/18 = first subnet address, zero subnet
+> 172.16.64.0/18 = next subnet address (because of the last borrowed bit is 64)
+> Therefore, last subnet = 172.16.192.0/18, as 192+64 = 256
+> Total number of subnet = 2<sup>2</sup> = 4 (count how many used bits, 1)
+> Total host addresses per subnet = 64 * 256 = 16,384 (172.16.0.0 - 172.16.63.255 range) (see table below)
+> OR
+>  Total host addresses per subnet (count how many zeros left, in this case 14) = 2<sup>14</sup> = 16,384
+> Total usable host addresses per subnet = 16,384 - 2 = 16,382 
+> Total host addresses = 16,384 * 4 = 65,536
+> Total usable host addresses = 16,382 * 4 = 65,528
+
+| Subnet Address | Host Address Range            | Broadcast Address |
+| -------------- | ----------------------------- | ----------------- |
+| 172.16.0.0     | 172.16.0.1 - 172.16.63.254    | 172.16.63.255     |
+| 172.16.64.0    | 172.16.64.1 - 172.16.127.254  | 172.16.127.255    |
+| 172.16.128.0   | 172.16.128.1 - 172.16.191.254 | 172.16.191.255    |
+| 172.16.192.0   | 172.16.192.1 - 172.16.255.254 | 172.16.255.255    |
+
+<b>Example 3 </b> #important 
+![[Pasted image 20241013161954.png]]
+>Class B subnet mask 172.16.0.0/16, borrowing 11 host bits -> /27 prefix
+>172.16.0.0/27 = first subnet address, zero subnet
+>172.16.0.32/27 = next subnet address (because the last borrowed bit is 32)
+>Total number of subnet = 2<sup>11</sup> = 2048
+>Total host addresses per subnet (count how many zeros left, in this case 5) = 2<sup>5</sup> = 32
+>Total usable host addresses per subnet = 2<sup>5</sup> -2 = 30
+>Total host addresses = 2048 * 32 = 65,536
+> Total usable host addresses = 2048 * 30 = 61,440
+
+| Subnet Number | Subnet Address | Host Address Range              | Broadcast Address |
+| ------------- | -------------- | ------------------------------- | ----------------- |
+| 1             | 172.16.0.0     | 172.16.0.1 - 172.16.0.30        | 172.16.0.31       |
+| 2             | 172.16.0.32    | 172.16.0.33 - 172.16.0.62       | 172.16.0.63       |
+| ...           | ...            | ...                             | ...               |
+| 2048          | 172.16.255.224 | 172.16.255.225 - 172.16.255.254 | 172.16.255.255    |
 
 ### Benefits of VLSM and Implementing VLSM
 

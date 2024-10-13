@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "814f9ff8cfcbb370",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Exploring LANs.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "20b490ad5815d83e",
             "type": "leaf",
             "pinned": true,
@@ -52,44 +38,19 @@
           {
             "id": "bb14124597173d07",
             "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mindmap of overall.canvas",
-                "viewState": {
-                  "x": -646.7363496238586,
-                  "y": 652.8549874564085,
-                  "zoom": -0.4766409086695204
-                }
-              }
-            }
-          },
-          {
-            "id": "c894a5828b05d89b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Explaining the Functions of Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e16fa9b3dd249265",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,48 +194,48 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "e16fa9b3dd249265",
+  "active": "bb14124597173d07",
   "lastOpenFiles": [
-    "Pasted image 20241007163059.png",
-    "Pasted image 20241007162836.png",
-    "Pasted image 20241007162806.png",
-    "Pasted image 20241007160645.png",
-    "Pasted image 20241007160542.png",
-    "Pasted image 20241007155933.png",
-    "Pasted image 20241007153029.png",
-    "Pasted image 20241007152830.png",
-    "Pasted image 20241007143957.png",
-    "Pasted image 20241007143549.png",
-    "Pasted image 20241006204217.png",
-    "CCNA Topics.md",
+    "Pasted image 20241013161954.png",
+    "Pasted image 20241013155230.png",
     "4.Exploring LANs.md",
-    "Actual Topics Covered.md",
+    "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+    "Pasted image 20241013152132.png",
+    "Pasted image 20241013151801.png",
+    "Pasted image 20241013151526.png",
+    "Pasted image 20241013150812.png",
+    "Pasted image 20241013145203.png",
+    "Pasted image 20241013145027.png",
+    "Pasted image 20241013144056.png",
+    "7.Introducing TCP/7a.Explaining the Layers.md",
     "1.Explaining the Functions of Networking.md",
     "2.Introducing the Host to Host Communications Model.md",
+    "3.Cisco IOS Software.md",
+    "6.Starting a Switch.md",
+    "8.Explaining the functions of Routing.md",
+    "9.Configuring a Cisco Router.md",
     "Mindmap of overall.canvas",
+    "CCNA Topics.md",
+    "Actual Topics Covered.md",
+    "5.Exploring TCP/IP Layer.md",
+    "Pasted image 20241007163059.png",
+    "Pasted image 20241007162836.png",
     "README.md",
     "WANs.md",
     "WANs 2.md",
     "WANs 1.md",
     "WAN.md",
-    "3.Cisco IOS Software.md",
     "- Wide-Area Networks (WANs).md",
     "().md",
     "Wide-Area Networks (WANs).md",
-    "7.Introducing TCP/IP Transport Layer and Application Layer.md",
-    "5.Exploring TCP/IP Layer.md",
     "5.Exploring TCP",
-    "7.Introducing TCP/7a.Explaining the Layers.md",
     "Untitled.canvas",
-    "9.Configuring a Cisco Router.md",
-    "8.Explaining the functions of Routing.md",
     "7.Introducing TCP",
     "2024-09-20.md",
     "Cisco IOS Software.md",
     "Explaining the Layers.md",
     "Starting a Switch.md",
     "Common usages of Computer Network.md",
-    "6.Starting a Switch.md",
     "Exploring TCP",
     "Introducing TCP",
     "Untitled 1.canvas",
