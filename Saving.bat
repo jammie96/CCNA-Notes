@@ -2,5 +2,5 @@
 set /p commitMessage="Enter your commit message: "
 git add .
 git commit -m "%commitMessage%"
-git push
+git push --force
 pause
