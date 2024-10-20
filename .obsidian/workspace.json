@@ -18,7 +18,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Actual Topics Covered"
             }
           },
           {
@@ -32,33 +34,71 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "CCNA Topics"
             }
           },
           {
-            "id": "bb14124597173d07",
+            "id": "aa49aa05118f103c",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+                "file": "5. Exploring the TCP-IP Link Layer.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "5. Exploring the TCP-IP Link Layer"
             }
           },
           {
-            "id": "912e9ea3bacc427a",
+            "id": "749b1352e1484578",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1.Explaining the Functions of Networking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Explaining the Functions of Networking"
+            }
+          },
+          {
+            "id": "9e765d8cd3b4551d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Introducing LANs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.Introducing LANs"
+            }
+          },
+          {
+            "id": "8e4b6d264ab90c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Exploring the TCP-IP Link Layer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Exploring the TCP-IP Link Layer"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -78,7 +118,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -93,7 +135,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -101,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -124,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+                "file": "5. Exploring the TCP-IP Link Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +178,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 5. Exploring the TCP-IP Link Layer"
             }
           },
           {
@@ -141,10 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md",
+                "file": "5. Exploring the TCP-IP Link Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 5. Exploring the TCP-IP Link Layer"
             }
           },
           {
@@ -155,7 +205,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -164,8 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7.Introducing TCP/IP Transport Layer and Application Layer.md"
-              }
+                "file": "5. Exploring the TCP-IP Link Layer.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 5. Exploring the TCP-IP Link Layer"
             }
           },
           {
@@ -173,7 +227,9 @@
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
-              "state": {}
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
             }
           },
           {
@@ -181,7 +237,9 @@
             "type": "leaf",
             "state": {
               "type": "juggl_style",
-              "state": {}
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           }
         ]
@@ -202,35 +260,34 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "bb14124597173d07",
+  "active": "8e4b6d264ab90c3f",
   "lastOpenFiles": [
+    "1.Explaining the Functions of Networking.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "3.Operating Cisco IOS Software.md",
+    "4.Introducing LANs.md",
+    "5. Exploring the TCP-IP Link Layer.md",
+    "6.Starting a Switch.md",
+    "7. IP Transport Layer and Application Layer.md",
+    "8.Explaining the functions of Routing.md",
+    "9.Configuring a Cisco Router.md",
+    "CCNA Topics.md",
+    "Actual Topics Covered.md",
+    "7.Introducing TCP/7a.Explaining the Layers.md",
+    "Pasted image 20241020173243.png",
+    "Pasted image 20241020173230.png",
+    "Pasted image 20241020173214.png",
+    "Pasted image 20241020173203.png",
+    "Pasted image 20241020173048.png",
+    "Pasted image 20241020165025.png",
+    "Pasted image 20241020164713.png",
     "Pasted image 20241013213650.png",
     "Pasted image 20241013213629.png",
     "Pasted image 20241013213612.png",
-    "Pasted image 20241013213557.png",
-    "Pasted image 20241013213540.png",
     "![[vlsm.md",
-    "7.Introducing TCP/IP Transport Layer and Application Layer.md",
     "vlsm calculator.md",
-    "Pasted image 20240928214548.png",
     "vlsm calc.html",
-    "Pasted image 20241013210101.png",
-    "Pasted image 20241013204833.png",
-    "Pasted image 20241013161954.png",
-    "Pasted image 20241013155230.png",
-    "4.Exploring LANs.md",
-    "Pasted image 20241013152132.png",
-    "7.Introducing TCP/7a.Explaining the Layers.md",
-    "1.Explaining the Functions of Networking.md",
-    "2.Introducing the Host to Host Communications Model.md",
-    "3.Cisco IOS Software.md",
-    "6.Starting a Switch.md",
-    "8.Explaining the functions of Routing.md",
-    "9.Configuring a Cisco Router.md",
     "Mindmap of overall.canvas",
-    "CCNA Topics.md",
-    "Actual Topics Covered.md",
-    "5.Exploring TCP/IP Layer.md",
     "README.md",
     "WANs.md",
     "WANs 2.md",

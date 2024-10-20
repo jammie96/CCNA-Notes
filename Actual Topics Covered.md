@@ -20,7 +20,7 @@
     - 1.3.a Single-mode fiber, multimode fiber, copper
     - 1.3.b Connections (Ethernet shared media and point-to-point)
   
-- 1.4 Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed)
+- 1.4 Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed) 
   
 - 1.5 Compare TCP to UDP
   

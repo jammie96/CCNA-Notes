@@ -1,29 +1,29 @@
-1. [[1.Explaining the Functions of Networking]]
-2. [[2.Introducing the Host to Host Communications Model]]
-3. [[3.Cisco IOS Software]]
-4. [[4.Exploring LANs]]
-5. [[5.Exploring TCP/IP Layer]]
-6. [[6.Starting a Switch]]
-7. [[7.Introducing TCP/IP Transport Layer and Application Layer]]
-	a. [[7a.Explaining the Layers]]
+## (Based on 2.1.3)
+1. [[1.Explaining the Functions of Networking]] (done)
+2. [[2.Introducing the Host to Host Communications Model]] (done)
+3. [[3.Operating Cisco IOS Software]] (will do when studying switches)
+4. [[4.Introducing LANs]] (done)
+5. [[5. Exploring the TCP-IP Link Layer]] (Current)
+6. [[6.Starting a Switch]]  (will do when studying switches)
+7. [[7. IP Transport Layer and Application Layer]] (subnetting calculation) (done)
 8. [[8.Explaining the functions of Routing]]
-9. [[9.Configuring a Cisco Router]] 
+9. [[9.Configuring a Cisco Router]]  (will do when studying switches)
 10. [[10.Exploring Packet Delivery Process]] 
-11. [[11.Troubleshooting a Simple Network]] 
+11. [[11.Troubleshooting a Simple Network]]   (will do when studying switches)
 12. [[12.Introducing Basic IPv6]] 
-13. [[13.Configuring Static Routing]] 
-14. [[14.Implementing VLANs and Trunks]] 
-15. [[15.Routing Between VLANs]] 
-16. [[16.Introducing OSPF]] 
+13. [[13.Configuring Static Routing]]   (will do when studying switches)
+14. [[14.Implementing VLANs and Trunks]]   (will do when studying switches)
+15. [[15.Routing Between VLANs]]   (will do when studying switches)
+16. [[16.Introducing OSPF]]   (will do after studying switches)
 17. [[17.Building Redundant Switched Topologies]] 
 	a. [[17.a.Improving Redundant Switched Topologies with EtherChannel]] 
 18. [[18.Explaining the Basics of ACL]] 
 19. [[19.Enabling Internet Connectivity]] 
 20. [[20.Introducing AI and ML in Network Operations]] 
 21. [[21.Introducing System Monitoring]] 
-22. [[22.Managing Cisco Devices]] 
+22. [[22.Managing Cisco Devices]]   (will do when studying switches)
 23. [[23.Securing Administrative Access]] 
-24. [[24.Implementing Device Hardening]] 
+24. [[24.Implementing Device Hardening]]   (will do when studying switches)
 25. [[25.Exploring Layer 3 Redundancy]] 
 26. [[26.Introducing WAN Technologies]] 
 27. [[27.Introducing QoS]] 
