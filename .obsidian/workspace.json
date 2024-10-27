@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,30 +260,30 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "8e4b6d264ab90c3f",
+  "active": "aa49aa05118f103c",
   "lastOpenFiles": [
+    "Pasted image 20241027110314.png",
+    "Pasted image 20241027110153.png",
+    "Pasted image 20241027110115.png",
+    "5. Exploring the TCP-IP Link Layer.md",
+    "Pasted image 20241027105857.png",
+    "Pasted image 20241027104820.png",
+    "Pasted image 20241027103330.png",
+    "Pasted image 20241027102706.png",
+    "Actual Topics Covered.md",
+    "Pasted image 20241027100137.png",
     "Pasted image 20241026201959.png",
     "Pasted image 20241026201948.png",
     "Pasted image 20241026201933.png",
-    "Pasted image 20241026201922.png",
-    "Pasted image 20241026194814.png",
-    "Pasted image 20241026175548.png",
-    "Pasted image 20241026175105.png",
-    "Pasted image 20241026174623.png",
-    "Pasted image 20241026174621.png",
-    "Pasted image 20241026174316.png",
-    "Pasted image 20241026174314.png",
     "1.Explaining the Functions of Networking.md",
     "2.Introducing the Host to Host Communications Model.md",
     "3.Operating Cisco IOS Software.md",
     "4.Introducing LANs.md",
-    "5. Exploring the TCP-IP Link Layer.md",
     "6.Starting a Switch.md",
     "7. IP Transport Layer and Application Layer.md",
     "8.Explaining the functions of Routing.md",
     "9.Configuring a Cisco Router.md",
     "CCNA Topics.md",
-    "Actual Topics Covered.md",
     "7.Introducing TCP/7a.Explaining the Layers.md",
     "![[vlsm.md",
     "vlsm calculator.md",
