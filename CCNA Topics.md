@@ -3,7 +3,7 @@
 2. [[2.Introducing the Host to Host Communications Model]] (done)
 3. [[3.Operating Cisco IOS Software]] (will do when studying switches)
 4. [[4.Introducing LANs]] (done)
-5. [[5. Exploring the TCP-IP Link Layer]] (Current)
+5. [[5. Exploring the TCP-IP Link Layer]] (done)
 6. [[6.Starting a Switch]]  (will do when studying switches)
 7. [[7. IP Transport Layer and Application Layer]] (subnetting calculation) (done)
 8. [[8.Explaining the functions of Routing]]

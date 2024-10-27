@@ -40,61 +40,19 @@
             }
           },
           {
-            "id": "aa49aa05118f103c",
+            "id": "c34db58450d85c36",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Exploring the TCP-IP Link Layer.md",
+                "file": "8.Explaining the functions of Routing.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "5. Exploring the TCP-IP Link Layer"
-            }
-          },
-          {
-            "id": "749b1352e1484578",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Explaining the Functions of Networking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Explaining the Functions of Networking"
-            }
-          },
-          {
-            "id": "9e765d8cd3b4551d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Introducing LANs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4.Introducing LANs"
-            }
-          },
-          {
-            "id": "8e4b6d264ab90c3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5. Exploring the TCP-IP Link Layer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Exploring the TCP-IP Link Layer"
+              "title": "8.Explaining the functions of Routing"
             }
           }
         ],
@@ -129,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Routers",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -260,30 +219,29 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "aa49aa05118f103c",
+  "active": "c34db58450d85c36",
   "lastOpenFiles": [
-    "Pasted image 20241027110314.png",
-    "Pasted image 20241027110153.png",
-    "Pasted image 20241027110115.png",
-    "5. Exploring the TCP-IP Link Layer.md",
-    "Pasted image 20241027105857.png",
-    "Pasted image 20241027104820.png",
-    "Pasted image 20241027103330.png",
-    "Pasted image 20241027102706.png",
-    "Actual Topics Covered.md",
-    "Pasted image 20241027100137.png",
-    "Pasted image 20241026201959.png",
-    "Pasted image 20241026201948.png",
-    "Pasted image 20241026201933.png",
-    "1.Explaining the Functions of Networking.md",
-    "2.Introducing the Host to Host Communications Model.md",
-    "3.Operating Cisco IOS Software.md",
-    "4.Introducing LANs.md",
-    "6.Starting a Switch.md",
-    "7. IP Transport Layer and Application Layer.md",
-    "8.Explaining the functions of Routing.md",
-    "9.Configuring a Cisco Router.md",
     "CCNA Topics.md",
+    "Actual Topics Covered.md",
+    "7. IP Transport Layer and Application Layer.md",
+    "5. Exploring the TCP-IP Link Layer.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "8.Explaining the functions of Routing.md",
+    "1.Explaining the Functions of Networking.md",
+    "4.Introducing LANs.md",
+    "9.Configuring a Cisco Router.md",
+    "Pasted image 20241027180911.png",
+    "Pasted image 20241027174951.png",
+    "Pasted image 20241027174625.png",
+    "Pasted image 20241027171418.png",
+    "Pasted image 20241027171407.png",
+    "Pasted image 20241027171356.png",
+    "Pasted image 20241027171344.png",
+    "Pasted image 20241027171328.png",
+    "Pasted image 20241027171313.png",
+    "Pasted image 20241027110314.png",
+    "3.Operating Cisco IOS Software.md",
+    "6.Starting a Switch.md",
     "7.Introducing TCP/7a.Explaining the Layers.md",
     "![[vlsm.md",
     "vlsm calculator.md",

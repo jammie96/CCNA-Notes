@@ -17,16 +17,16 @@
     - 1.2.f On-premise and cloud
   
 - 1.3 Compare physical interface and cabling types
-    - 1.3.a Single-mode fiber, multimode fiber, copper
-    - 1.3.b Connections (Ethernet shared media and point-to-point)
+    - 1.3.a Single-mode fiber, multimode fiber, copper #SMF #MMF #Copper
+    - 1.3.b Connections (Ethernet shared media and point-to-point)  #EthernetSharedMedia #PointToPoint
   
-- 1.4 Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed) 
+- 1.4 Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed) #CSMA #CSMA/CD #Mismatch 
   
 - 1.5 Compare TCP to UDP
   
 - 1.6 Configure and verify IPv4 addressing and subnetting #practical
   
-- 1.7 Describe private IPv4 addressing
+- 1.7 Describe private IPv4 addressing #PrivateIPv4 
   
 - 1.8 Configure and verify IPv6 addressing and prefix #practical
   
@@ -47,10 +47,10 @@
 - 1.12 Explain virtualization fundamentals (server virtualization, containers, and VRFs) #virtualization 
   
 - 1.13 Describe switching concepts
-    - 1.13.a MAC learning and aging
-    - 1.13.b Frame switching
-    - 1.13.c Frame flooding
-    - 1.13.d MAC address table
+    - 1.13.a MAC learning and aging #MACLearning #MACAging 
+    - 1.13.b Frame switching #FrameSwitching 
+    - 1.13.c Frame flooding #FrameFlooding 
+    - 1.13.d MAC address table #MACAddress 
 
 - 2.1 Configure and verify VLANs (normal range) spanning multiple switches #practical 
     - 2.1.a Access ports (data and voice)
@@ -83,7 +83,7 @@
 - 3.1 Interpret the components of routing table
     - 3.1.a Routing protocol code
     - 3.1.b Prefix
-    - 3.1.c Network mask
+    - 3.1.c Network mask #NetworkMask 
     - 3.1.d Next hop
     - 3.1.e Administrative distance
     - 3.1.f Metric
