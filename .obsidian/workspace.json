@@ -108,8 +108,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,6 +220,7 @@
   },
   "active": "c34db58450d85c36",
   "lastOpenFiles": [
+    "Pasted image 20241031162006.png",
     "CCNA Topics.md",
     "Actual Topics Covered.md",
     "7. IP Transport Layer and Application Layer.md",
