@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DynamicRoutingProtocol",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -228,16 +228,20 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "4814c53419bb99cd",
+  "active": "8294c5d962c8a924",
   "lastOpenFiles": [
+    "Pasted image 20241104210633.png",
+    "Pasted image 20241104205829.png",
+    "Pasted image 20241104204359.png",
+    "8.Explaining the functions of Routing.md",
+    "Actual Topics Covered.md",
+    "CCNA Topics.md",
     "10.Exploring Packet Delivery Process.md",
     "6.Starting a Switch.md",
     "7. IP Transport Layer and Application Layer.md",
-    "8.Explaining the functions of Routing.md",
     "9.Configuring a Cisco Router.md",
     "2.Introducing the Host to Host Communications Model.md",
     "Pasted image 20241104180545.png",
-    "CCNA Topics.md",
     "1.Explaining the Functions of Networking.md",
     "Pasted image 20241104181306.png",
     "Tags",
@@ -247,9 +251,6 @@
     "Pasted image 20241104110805.png",
     "Pasted image 20241104110754.png",
     "Pasted image 20241104110555.png",
-    "Pasted image 20241103213407.png",
-    "Pasted image 20241103211823.png",
-    "Actual Topics Covered.md",
     "5. Exploring the TCP-IP Link Layer.md",
     "4.Introducing LANs.md",
     "3.Operating Cisco IOS Software.md",

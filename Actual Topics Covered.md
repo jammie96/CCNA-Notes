@@ -81,18 +81,18 @@
 - 2.9 Interpret the wireless LAN GUI configuration for client connectivity, such as WLAN creation, security settings, QoS profiles, and advanced settings #QoS 
 
 - 3.1 Interpret the components of routing table
-    - 3.1.a Routing protocol code
-    - 3.1.b Prefix
+    - 3.1.a Routing protocol code #RoutingProtocolCode 
+    - 3.1.b Prefix #LongestPrefixMatch
     - 3.1.c Network mask #NetworkMask 
-    - 3.1.d Next hop
-    - 3.1.e Administrative distance
-    - 3.1.f Metric
-    - 3.1.g Gateway of last resort
+    - 3.1.d Next hop #NextHop 
+    - 3.1.e Administrative distance #AdministrativeDistance
+    - 3.1.f Metric #Metric
+    - 3.1.g Gateway of last resort #GatewayOfLastResort 
   
-- 3.2 Determine how a router makes a forwarding decision by default
-    - 3.2.a Longest prefix match
-    - 3.2.b Administrative distance
-    - 3.2.c Routing protocol metric
+- 3.2 Determine how a router makes a forwarding decision by default #ForwardingDecisionDefault 
+    - 3.2.a Longest prefix match #LongestPrefixMatch
+    - 3.2.b Administrative distance #AdministrativeDistance 
+    - 3.2.c Routing protocol metric #Metric 
   
 - 3.3 Configure and verify IPv4 and IPv6 static routing #practical 
     - 3.3.a Default route
