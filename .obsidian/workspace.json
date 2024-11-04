@@ -40,23 +40,23 @@
             }
           },
           {
-            "id": "c34db58450d85c36",
+            "id": "dd295c9d2a0cf229",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8.Explaining the functions of Routing.md",
+                "file": "10.Exploring Packet Delivery Process.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "8.Explaining the functions of Routing"
+              "title": "10.Exploring Packet Delivery Process"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,6 +106,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "04456e5ee4dbf6d5",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
         ]
@@ -218,30 +228,31 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c34db58450d85c36",
+  "active": "4814c53419bb99cd",
   "lastOpenFiles": [
+    "10.Exploring Packet Delivery Process.md",
+    "6.Starting a Switch.md",
+    "7. IP Transport Layer and Application Layer.md",
+    "8.Explaining the functions of Routing.md",
+    "9.Configuring a Cisco Router.md",
+    "2.Introducing the Host to Host Communications Model.md",
+    "Pasted image 20241104180545.png",
+    "CCNA Topics.md",
+    "1.Explaining the Functions of Networking.md",
+    "Pasted image 20241104181306.png",
+    "Tags",
+    "Pasted image 20241104175720.png",
+    "Pasted image 20241104175329.png",
     "Pasted image 20241104111627.png",
     "Pasted image 20241104110805.png",
     "Pasted image 20241104110754.png",
     "Pasted image 20241104110555.png",
     "Pasted image 20241103213407.png",
     "Pasted image 20241103211823.png",
-    "Pasted image 20241103205708.png",
-    "Pasted image 20241103155334.png",
-    "CCNA Topics.md",
-    "8.Explaining the functions of Routing.md",
-    "Pasted image 20241103153110.png",
-    "Pasted image 20241103150902.png",
-    "Pasted image 20241103145821.png",
-    "2.Introducing the Host to Host Communications Model.md",
     "Actual Topics Covered.md",
-    "7. IP Transport Layer and Application Layer.md",
     "5. Exploring the TCP-IP Link Layer.md",
-    "1.Explaining the Functions of Networking.md",
     "4.Introducing LANs.md",
-    "9.Configuring a Cisco Router.md",
     "3.Operating Cisco IOS Software.md",
-    "6.Starting a Switch.md",
     "7.Introducing TCP/7a.Explaining the Layers.md",
     "![[vlsm.md",
     "vlsm calculator.md",
@@ -260,7 +271,6 @@
     "7.Introducing TCP",
     "2024-09-20.md",
     "Cisco IOS Software.md",
-    "Explaining the Layers.md",
     "Exploring TCP",
     "Introducing TCP",
     "Untitled 1.canvas",

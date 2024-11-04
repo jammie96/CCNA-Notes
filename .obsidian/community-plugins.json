@@ -1,4 +1,8 @@
 [
   "oz-image-plugin",
-  "juggl"
+  "juggl",
+  "make-md",
+  "remember-cursor-position",
+  "obsidian-text-format",
+  "harper"
 ]
