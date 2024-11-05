@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "04456e5ee4dbf6d5",
+            "id": "81eeae70db74e21b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -118,7 +118,8 @@
               "title": "Spaces"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -228,8 +229,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "8294c5d962c8a924",
+  "active": "dd295c9d2a0cf229",
   "lastOpenFiles": [
+    "Pasted image 20241105211244.png",
+    "Pasted image 20241105205329.png",
+    "Pasted image 20241105205322.png",
+    "Pasted image 20241105204456.png",
+    "Pasted image 20241105204342.png",
     "Pasted image 20241104210633.png",
     "Pasted image 20241104205829.png",
     "Pasted image 20241104204359.png",
@@ -246,11 +252,6 @@
     "Pasted image 20241104181306.png",
     "Tags",
     "Pasted image 20241104175720.png",
-    "Pasted image 20241104175329.png",
-    "Pasted image 20241104111627.png",
-    "Pasted image 20241104110805.png",
-    "Pasted image 20241104110754.png",
-    "Pasted image 20241104110555.png",
     "5. Exploring the TCP-IP Link Layer.md",
     "4.Introducing LANs.md",
     "3.Operating Cisco IOS Software.md",
