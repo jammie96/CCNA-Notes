@@ -40,19 +40,19 @@
             }
           },
           {
-            "id": "dd295c9d2a0cf229",
+            "id": "87f60004bfdb2e43",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.Exploring Packet Delivery Process.md",
+                "file": "12.Introducing Basic IPv6.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "10.Exploring Packet Delivery Process"
+              "title": "12.Introducing Basic IPv6"
             }
           }
         ],
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "81eeae70db74e21b",
+            "id": "c04699d0fecf4307",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -229,29 +229,29 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "dd295c9d2a0cf229",
+  "active": "87f60004bfdb2e43",
   "lastOpenFiles": [
-    "Pasted image 20241105211244.png",
-    "Pasted image 20241105205329.png",
-    "Pasted image 20241105205322.png",
-    "Pasted image 20241105204456.png",
-    "Pasted image 20241105204342.png",
-    "Pasted image 20241104210633.png",
-    "Pasted image 20241104205829.png",
-    "Pasted image 20241104204359.png",
-    "8.Explaining the functions of Routing.md",
-    "Actual Topics Covered.md",
     "CCNA Topics.md",
+    "12.Introducing Basic IPv6.md",
+    "Actual Topics Covered.md",
     "10.Exploring Packet Delivery Process.md",
+    "Pasted image 20241108224137.png",
+    "Pasted image 20241108224124.png",
+    "Pasted image 20241108224112.png",
+    "Pasted image 20241108224002.png",
+    "Pasted image 20241108223949.png",
+    "Pasted image 20241108223939.png",
+    "Pasted image 20241108223930.png",
+    "Pasted image 20241108223916.png",
+    "Pasted image 20241108223904.png",
+    "Pasted image 20241108223850.png",
+    "8.Explaining the functions of Routing.md",
     "6.Starting a Switch.md",
     "7. IP Transport Layer and Application Layer.md",
     "9.Configuring a Cisco Router.md",
     "2.Introducing the Host to Host Communications Model.md",
-    "Pasted image 20241104180545.png",
     "1.Explaining the Functions of Networking.md",
-    "Pasted image 20241104181306.png",
     "Tags",
-    "Pasted image 20241104175720.png",
     "5. Exploring the TCP-IP Link Layer.md",
     "4.Introducing LANs.md",
     "3.Operating Cisco IOS Software.md",
