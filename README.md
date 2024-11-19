@@ -1,5 +1,7 @@
 # CCNA-Notes
 
+www.learningspace.cisco.com
+
 cd CCNA-Notes
 
 git clone git@github.com:jammie96/CCNA-Notes.git
@@ -11,6 +13,9 @@ git commit -m "anything"
 git push
 
 # website accs
+
+https://cll-ng.cisco.com/users/pblogin
+
 Username: 202409043954
 Password: cX3RMmLC
 
