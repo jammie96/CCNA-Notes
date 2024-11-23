@@ -6,11 +6,11 @@
 5. [[5. Exploring the TCP-IP Link Layer]] (done)
 6. [[6.Starting a Switch]]  (will do when studying switches)
 7. [[7. IP Transport Layer and Application Layer]] (subnetting calculation) (done)
-8. [[8.Explaining the functions of Routing]]
+8. [[8.Explaining the functions of Routing]](done)
 9. [[9.Configuring a Cisco Router]]  (will do when studying switches)
-10. [[10.Exploring Packet Delivery Process]] 
+10. [[10.Exploring Packet Delivery Process]] (done)
 11. [[11.Troubleshooting a Simple Network]]   (will do when studying switches)
-12. [[12.Introducing Basic IPv6]] 
+12. [[12.Introducing Basic IPv6]] (current)
 13. [[13.Configuring Static Routing]]   (will do when studying switches)
 14. [[14.Implementing VLANs and Trunks]]   (will do when studying switches)
 15. [[15.Routing Between VLANs]]   (will do when studying switches)

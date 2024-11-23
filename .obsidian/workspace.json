@@ -54,6 +54,16 @@
               "icon": "lucide-file",
               "title": "12.Introducing Basic IPv6"
             }
+          },
+          {
+            "id": "7fa223d2c3487025",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 2
@@ -109,7 +119,7 @@
             }
           },
           {
-            "id": "a0a681b9e964ac6e",
+            "id": "2fee51606d0ebf3b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -231,20 +241,20 @@
   },
   "active": "87f60004bfdb2e43",
   "lastOpenFiles": [
+    "Pasted image 20241123214111.png",
+    "Pasted image 20241123213832.png",
+    "Pasted image 20241123205945.png",
+    "CCNA Topics.md",
+    "12.Introducing Basic IPv6.md",
+    "Actual Topics Covered.md",
+    "Pasted image 20241123184840.png",
+    "Pasted image 20241123184437.png",
+    "Pasted image 20241123173125.png",
+    "Pasted image 20241123171450.png",
     "Pasted image 20241121212052.png",
     "Pasted image 20241121212042.png",
     "Pasted image 20241119215812.png",
     "Pasted image 20241119215628.png",
-    "Pasted image 20241119212535.png",
-    "Pasted image 20241119212533.png",
-    "Pasted image 20241119211226.png",
-    "Pasted image 20241119210222.png",
-    "Pasted image 20241110210826.png",
-    "Pasted image 20241110200122.png",
-    "Pasted image 20241110194726.png",
-    "CCNA Topics.md",
-    "12.Introducing Basic IPv6.md",
-    "Actual Topics Covered.md",
     "10.Exploring Packet Delivery Process.md",
     "8.Explaining the functions of Routing.md",
     "6.Starting a Switch.md",
