@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "872fe3560e336f49",
+            "id": "19bbcaf836b08e45",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -231,6 +231,9 @@
   },
   "active": "0be344e4126dc2df",
   "lastOpenFiles": [
+    "Pasted image 20241128211732.png",
+    "Pasted image 20241128210826.png",
+    "Pasted image 20241128210401.png",
     "Pasted image 20241127214934.png",
     "Pasted image 20241127212656.png",
     "Actual Topics Covered.md",
@@ -243,9 +246,6 @@
     "Pasted image 20241124210014.png",
     "Pasted image 20241124205514.png",
     "Pasted image 20241124205505.png",
-    "Pasted image 20241124205451.png",
-    "Pasted image 20241124205437.png",
-    "Pasted image 20241124205223.png",
     "10.Exploring Packet Delivery Process.md",
     "8.Explaining the functions of Routing.md",
     "6.Starting a Switch.md",
