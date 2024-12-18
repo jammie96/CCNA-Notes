@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "fd788e0182fe5e22",
+            "id": "a0edc1458a2ac1a9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0b73af5bc24f5481",
@@ -231,6 +232,8 @@
   },
   "active": "0be344e4126dc2df",
   "lastOpenFiles": [
+    "Pasted image 20241218100404.png",
+    "Pasted image 20241218095618.png",
     "Pasted image 20241215171933.png",
     "Pasted image 20241215170208.png",
     "Pasted image 20241215170153.png",
@@ -240,8 +243,6 @@
     "Pasted image 20241201162831.png",
     "Pasted image 20241201161338.png",
     "Pasted image 20241201153301.png",
-    "Pasted image 20241201103115.png",
-    "Pasted image 20241201102735.png",
     "Actual Topics Covered.md",
     "CCNA Topics.md",
     "17.Building Redundant Switched Topologies.md",
